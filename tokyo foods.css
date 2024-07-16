@@ -82,13 +82,19 @@ header ul {
     text-align: center;
     overflow-x: scroll;
     white-space: nowrap;
-
+    padding-top: 1em;
+    padding-left: 1em;
 }
 
 .main-flex img {
     width: 125px;
     height: 125px;
     border-radius: 50%;
+    transition: all 1s;
+}
+
+.main-flex img:hover {
+    transform: rotate(90deg) scale(1.2);
 }
 
 .main {
